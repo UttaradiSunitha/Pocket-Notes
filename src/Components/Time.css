@@ -1,0 +1,12 @@
+#dot{
+    width:22px;
+    vertical-align:middle;
+}
+#date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #353535;
+    padding:1rem 0.5rem 0.5rem 1rem;
+    text-align: right;
+    display: block;
+}

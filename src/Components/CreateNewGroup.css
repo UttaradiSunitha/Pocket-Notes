@@ -1,0 +1,48 @@
+#box{
+    width: 30rem;
+    height: 15rem;
+    border-radius:0.5rem;
+    border: 2px solid #CCCCCC;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    background: #FFFFFF;
+}
+#choose{
+    display: inline-block;
+    margin-top:1.5rem;
+}
+#gname{
+    padding:0.5rem 1rem;
+    margin-top:1rem;
+    width:15rem;
+    border-radius: 1rem;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid #CCCCCC
+}
+#btn{
+    background: #001F8B;
+    outline: none;
+    border: none;
+    width:7rem;
+    height:2rem;
+    border-radius: 11px;
+    color:#FFFFFF;
+    position: absolute; 
+    bottom: 1rem;
+    left: 300px;
+    cursor: pointer;
+}
+.font{
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 0.035em;
+    text-align: left;
+
+}

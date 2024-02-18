@@ -1,0 +1,80 @@
+#sidebar{
+    position: relative; 
+    width:30vw;
+    /* padding:2rem; */
+    max-height:80vh;
+    box-sizing: border-box;
+}
+h1{
+    position: sticky;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:1rem 1rem 0 1rem;
+    text-align: center;
+}
+#groupname{
+    width:2.8rem;
+    height:2.8rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+#list{
+    max-height: calc(100vh - 150px);
+    
+}
+.listitem{
+    list-style-type: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    overflow-x: hidden;
+    padding: 1rem 0 1rem 1rem;
+}
+.list-item-container {
+    display: flex;
+    align-items: center;
+}
+
+#h1container{
+    margin-bottom: 2rem;
+    position: sticky;
+    max-height: calc(100vh - 200px);
+}
+#listcontainer{
+    overflow-y: auto; 
+}
+.delete{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right:10px;
+}
+.active{
+    background-color:#DAE5F5;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#listcontainer::-webkit-scrollbar {
+    width: 5px; 
+    scroll-behavior: smooth;
+}
+#listcontainer::-webkit-scrollbar-thumb {
+   background-color: white;
+   border-radius: 50px;
+}
+#listcontainer::-webkit-scrollbar-track{
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ 

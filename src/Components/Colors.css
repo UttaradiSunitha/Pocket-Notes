@@ -1,0 +1,14 @@
+.color{
+    width:1.8rem;
+    height:1.8rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0.3rem;
+    vertical-align:middle;
+    cursor: pointer;
+    /* border:1px solid black; */
+}
+.selected {
+    border: 1px solid black;
+}
+

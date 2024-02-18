@@ -1,0 +1,77 @@
+#container2{
+    overflow-y: auto;
+    text-align: left;
+    width:70vw;
+    background: #DAE5F5;
+    display: flex; 
+    flex-direction: column; 
+    align-items: stretch;
+    position:relative;
+    min-height:100%;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+.textcontainer{
+    background: white;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    margin:2rem 1rem 1rem 2rem;
+    padding:1rem;
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+    flex-grow: 1;
+    height: auto;
+}
+#note{
+    width:70%;
+    border: 1rem solid  #001F8B;
+    box-sizing: border-box;
+    outline: none;
+    border-bottom-left-radius: 1rem;
+    height: 30%;
+    padding:1rem 3rem 2rem 1rem; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    position: fixed; 
+    top: 70%; 
+    left: 30%; 
+    right: 0; 
+    bottom: 0;
+    z-index: 10;
+}
+#send{
+    width:30px;
+    position:fixed;
+    bottom:8%;
+    left:90%;
+    z-index: 12; 
+}
+.addicon{
+    padding:0.5rem;
+    cursor: pointer;
+}
+/* #para-container{
+  overflow-y: auto; 
+  max-height: calc(70vh - 30%); 
+
+} */
+#para{
+    z-index:0;
+} 
+#para::-webkit-scrollbar {
+    width: 5px; 
+    scroll-behavior: smooth;
+}
+#para::-webkit-scrollbar-thumb {
+   background-color: white;
+   border-radius: 50px;
+}
+#para::-webkit-scrollbar-track{
+    background-color: grey;
+    
+}
